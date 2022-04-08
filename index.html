@@ -13,7 +13,7 @@
       </div>
       <header class="header">
         <div class="header__right-block">
-          <button class="btn btn_white">Feedback</button>
+          <button class="btn btn_white" data-modal="">Feedback</button>
         </div>
       </header>
       <div class="sidepanel">
@@ -41,7 +41,7 @@
                 brand practically invented the automobile.
               </div>
             </div>
-            <!-- <div class="tabcontent">
+            <div class="tabcontent">
               <img src="img/tabs/2.jpg" />
               <div class="tabcontent__descr">
                 Despite the equal share of the two engineer's contribution to the
@@ -67,7 +67,7 @@
                 and development. Although both lived in Southern Germany, they
                 never actually met if historical accounts are to be believed.
               </div>
-            </div> -->
+            </div>
             <div class="tabheader">
               <h3>Choose Your Favourite Bogs</h3>
               <div class="tabheader__items">
@@ -90,7 +90,7 @@
         <div class="bgc_y"></div>
         <div class="container">
           <div class="offer__action">
-            <button class="btn btn_dark">Feedback</button>
+            <button data-modal="" class="btn btn_dark">Feedback</button>
           </div>
           <div class="offer__text">
             <h2 class="title">Best Mercedes Models</h2>
@@ -116,18 +116,20 @@
               </div>
             </div>
             <div class="offer__slider-wrapper">
-              <div class="offer__slide">
-                <img src="img/slider/1.jpg" alt="pepper" />
+              <div class="offer__slider-inner">
+                <div class="offer__slide">
+                  <img src="img/slider/1.jpg" alt="pepper" />
+                </div>
+                <div class="offer__slide">
+                    <img src="img/slider/2.jpg" alt="food">
+                </div>
+                <div class="offer__slide">
+                    <img src="img/slider/3.jpg" alt="oil">
+                </div>
+                <div class="offer__slide">
+                    <img src="img/slider/4.jpg" alt="paprika">
+                </div>
               </div>
-              <!-- <div class="offer__slide">
-                          <img src="img/slider/2.jpg" alt="food">
-                      </div>
-                      <div class="offer__slide">
-                          <img src="img/slider/3.jpg" alt="oil">
-                      </div>
-                      <div class="offer__slide">
-                          <img src="img/slider/4.jpg" alt="paprika">
-                      </div> -->
             </div>
           </div>
           <div class="offer__advantages">
@@ -154,7 +156,7 @@
   
         <div class="menu__field">
           <div class="container">
-            <div class="menu__item">
+            <!-- <div class="menu__item">
               <img src="img/tabs/1.jpg" alt="vegy" />
               <h3 class="menu__item-subtitle">2021 Mercedes-Benz C-Class</h3>
               <div class="menu__item-descr">
@@ -167,8 +169,8 @@
                 <div class="menu__item-cost">Price:</div>
                 <div class="menu__item-total"><span>199.000</span> $</div>
               </div>
-            </div>
-            <div class="menu__item">
+            </div> -->
+            <!-- <div class="menu__item">
               <img src="img/tabs/4.jpg" alt="elite" />
               <h3 class="menu__item-subtitle">2021 Mercedes-Benz CLA-Class</h3>
               <div class="menu__item-descr">
@@ -184,7 +186,7 @@
             </div>
             <div class="menu__item">
               <img src="img/tabs/2.jpg" alt="post" />
-              <h3 class="menu__item-subtitle">2021 Mercedes-Benz SCLA-Class</h3>
+              <h3 class="menu__item-subtitle">2021 Mercedes-Benz SCLA</h3>
               <div class="menu__item-descr">
                 The German luxury car-manufacturer has been around for more than a
                 century, having elegantly drifted rough curves of automobile.
@@ -194,7 +196,7 @@
                 <div class="menu__item-cost">Price:</div>
                 <div class="menu__item-total"><span>399.000</span> $</div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -218,7 +220,7 @@
               class="order__input"
             />
             <img src="icons/right.svg" alt="right" />
-            <button class="btn btn_dark btn_min">Feedback</button>
+            <button data-modal="" class="btn btn_dark btn_min">Feedback</button>
           </form>
         </div>
       </div>
@@ -266,6 +268,41 @@
           </div>
         </div>
       </div>
+      <div class="divider"></div>
+  
+      <div class="bg_content">
+        <div class="about_content1 container">
+          <div class="about_left">
+            <p>Eum ipsam laborum deleniti <span>velit pariatur architecto aut nihil</span></p>
+            <p class="text-acc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+    
+            <button class="accordion"><span>01</span>Non consectetur a erat nam at lectus urna duis?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+    
+            <button class="accordion"><span>02</span>Non consectetur na duis?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+    
+            <button class="accordion"><span>03</span>Non consectetur a lectus urna duis?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <div class="about_right">
+            <img src="./img/acc.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
   
       <footer class="footer"></footer>
   
@@ -273,7 +310,7 @@
         <div class="modal__dialog">
           <div class="modal__content">
             <form action="#">
-              <div class="modal__close">&times;</div>
+              <div data-close="" class="modal__close">&times;</div>
               <div class="modal__title">We will answer you InshaAllah!</div>
               <input
                 required
